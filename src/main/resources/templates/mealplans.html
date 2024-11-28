@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Meal Plans</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+    <div class="nav-bar">
+        <a th:href="@{/}">Go to Home Page</a>
+        <a th:href="@{/logout}">Logout</a>
+    </div>
+
+    <div style="text-align: center;">
+        <h1>Here are the meals we have available</h1>
+        <p>Browse our delicious meal plans!</p>
+    </div>
+
+    <section>
+        <!-- Sample meal plan listings, you can use Thymeleaf to display real data here -->
+        <ul>
+            <li>Meal Plan 1</li>
+            <li>Meal Plan 2</li>
+            <li>Meal Plan 3</li>
+        </ul>
+    </section>
+</body>
+</html>
